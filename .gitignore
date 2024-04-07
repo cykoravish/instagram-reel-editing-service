@@ -1,0 +1,12 @@
+# Dependency directories
+/node_modules
+
+# Build directory
+/dist
+
+# Compiled CSS files
+/*.css
+
+# Cache and logs
+/cache
+/log
