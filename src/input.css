@@ -1,3 +1,39 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+/* input.css */
+body {
+    padding: 1.5rem; /* Default padding for all screen sizes */
+}
+
+@media (min-width: 640px) {
+    body {
+        padding: 2rem; /* Adjust padding for small devices (phones) */
+    }
+}
+
+@media (min-width: 768px) {
+    body {
+        padding: 2.5rem; /* Adjust padding for tablets */
+    }
+}
+
+@media (min-width: 1024px) {
+    body {
+        padding: 3rem; /* Adjust padding for small desktops */
+    }
+}
+
+@media (min-width: 1280px) {
+    body {
+        padding: 4rem; /* Adjust padding for larger desktops */
+    }
+}
+
+@media (min-width: 1536px) {
+    body {
+        padding: 5rem; /* Adjust padding for extra-large desktops */
+    }
+}
